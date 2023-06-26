@@ -8,9 +8,9 @@
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=dark)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=transparent)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=P81000&hide_progress=True&layout=compact&hide=makefile,jupyter%20notebook)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=P81000&layout=compact&hide=makefile,jupyter%20notebook)
 
 
 👋 Hello! Welcome to my GitHub profile. My name is Pedro Masteguin, and I'm a Computer Science student at UNIFESP. Currently, I work as a Computing intern at AeroRiver, where I specialize in embedded systems programming. This repository showcases my progress and projects in the field of computer science.
@@ -29,8 +29,6 @@ If you'd like to get in touch with me, feel free to send me an email at ph.maste
 
 Thank you for visiting my GitHub profile, and I hope you find something interesting here! 😊
 
-### Working and always learning
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=transparent)
 
 <!--
 **P81000/P81000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
