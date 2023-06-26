@@ -8,7 +8,8 @@
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=dark) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=P81000&hide=makefile,jupyter%20notebook)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=dark) 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=P81000&hide_progress=True&hide=makefile,jupyter%20notebook)
 
 
 👋 Hello! Welcome to my GitHub profile. My name is Pedro Masteguin, and I'm a Computer Science student at UNIFESP. Currently, I work as a Computing intern at AeroRiver, where I specialize in embedded systems programming. This repository showcases my progress and projects in the field of computer science.
