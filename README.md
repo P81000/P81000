@@ -9,8 +9,6 @@
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=P81000&theme=transparent)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=P81000&layout=compact&hide=makefile,jupyter%20notebook&theme=transparent)
-
 
 👋 Hello! Welcome to my GitHub profile. My name is Pedro Masteguin, and I'm a Computer Science student at UNIFESP. Currently, I work as a Computing intern at AeroRiver, where I specialize in embedded systems programming. This repository showcases my progress and projects in the field of computer science.
 
