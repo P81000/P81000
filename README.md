@@ -17,7 +17,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=ambient_gradient)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=P81000&show_icons=true&theme=nord)
 
 ---
 
@@ -45,4 +45,13 @@ In this repository, you will find my work and projects related to computer scien
 If you'd like to get in touch with me, feel free to send me an email at ph.masteguin@gmail.com or reach out to me through my social media channels such as LinkdIn: linkedin.com/in/pedrohenriquemasteguin and Twitter: @pedro_masteguin. I am open to collaboration opportunities and would love to hear your ideas.
 
 Thank you for visiting my GitHub profile, and I hope you find something interesting here! 😊
+
+---
+
+📌 Pinned 📌
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Masteguin.Neovim)](https://github.com/P81000/Masteguin.Neovim)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Resume-EN)](https://github.com/P81000/Resume-EN)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=SocialSTD-TrelloReport)](https://github.com/P81000/SocialSTD-TrelloReport)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=ardupilot_mavmessage)](https://github.com/P81000/ardupilot_mavmessage)
 
