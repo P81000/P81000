@@ -52,8 +52,8 @@ Thank you for visiting my GitHub profile, and I hope you find something interest
 
 📌 Pinned 📌
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Masteguin.Neovim)](https://github.com/P81000/Masteguin.Neovim)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Resume-EN)](https://github.com/P81000/Resume-EN)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=SocialSTD-TrelloReport)](https://github.com/P81000/SocialSTD-TrelloReport)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=ardupilot_mavmessage)](https://github.com/P81000/ardupilot_mavmessage)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Masteguin.Neovim&theme=nord)](https://github.com/P81000/Masteguin.Neovim)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Resume-EN&theme=nord)](https://github.com/P81000/Resume-EN)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=SocialSTD-TrelloReport&theme=nord)](https://github.com/P81000/SocialSTD-TrelloReport)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=ardupilot_mavmessage&them=nord)](https://github.com/P81000/ardupilot_mavmessage)
 
