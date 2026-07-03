@@ -61,14 +61,3 @@ If you'd like to get in touch with me, feel free to send me an email at ph.maste
 Thank you for visiting my GitHub profile, and I hope you find something interesting here! 😊
 
 ---
-
-📌 Pinned 📌
-
-<div align=center>
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=redis-clone-cpp&theme=nord)](https://github.com/P81000/redis-clone-cpp)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=Masteguin.Neovim&theme=nord)](https://github.com/P81000/Masteguin.Neovim)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=SocialSTD-TrelloReport&theme=nord)](https://github.com/P81000/SocialSTD-TrelloReport)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P81000&repo=ardupilot_mavmessage&theme=nord)](https://github.com/P81000/ardupilot_mavmessage)
-
-</div>
