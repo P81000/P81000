@@ -56,7 +56,7 @@ This GitHub contains projects focused on systems programming, including high-per
 Highlights include a Redis-inspired in-memory database, computer vision systems, and low-level networking implementations.
 
 ## Contact
-If you'd like to get in touch with me, feel free to send me an email at ph.masteguin@gmail.com or reach out to me through my social media channels such as LinkdIn: linkedin.com/in/pedrohenriquemasteguin and Twitter: @pedro_masteguin. I am open to collaboration opportunities and would love to hear your ideas.
+If you'd like to get in touch with me, feel free to send me an email at pmasteguin@icloud.com or reach out to me through my social media channels such as LinkdIn: linkedin.com/in/pedro-masteguin and Twitter: @pedro_masteguin. I am open to collaboration opportunities and would love to hear your ideas.
 
 Thank you for visiting my GitHub profile, and I hope you find something interesting here! 😊
 
