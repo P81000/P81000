@@ -30,6 +30,11 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
         << "  .sec { fill: " << muted_color << "; font-size: 10px; letter-spacing: 1px; }\n"
         << "  .cur { fill: " << text_color << "; font-size: 10px; animation: blink 1s step-end infinite; }\n"
         << "  @keyframes blink { 50% { opacity: 0; } }\n"
+        << "  @keyframes float {\n"
+        << "    0%, 100% { transform: translateY(0); }\n"
+        << "    50% { transform: translateY(-12px); }\n"
+        << "  }\n"
+        << "  .tux-anim { animation: float 3s ease-in-out infinite; }\n"
         << "</style>\n";
 
     svg << "<rect x=\"1\" y=\"1\" width=\"678\" height=\"668\" rx=\"12\" fill=\"" << bg_color 
@@ -52,12 +57,16 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
     float art_y = 105.0;
     float art_lh = 1.7;
 
+    svg << "<g class=\"tux-anim\">\n";
+
     for (const std::string& line : ascii_art) {
         svg << "<text x=\"" << art_x << "\" y=\"" << art_y << "\" class=\"acc\" "
             << "style=\"font-size: 2px; font-family: monospace; fill: #00ff0088;\" xml:space=\"preserve\">" 
             << line << "</text>\n";
         art_y += art_lh;
     }
+
+    svg << "</g>\n";
 
     float y = 92.0;
     float info_x = 235.0;
