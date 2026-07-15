@@ -106,9 +106,9 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
     svg << "<text x=\"30\" y=\"" << y << "\" class=\"val\">\n"
         << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Systems Software Engineer focused on high-performance C/C++ systems, Linux-based infrastructure," << "</tspan>\n"
         << "  <tspan x=\"28\" dy=\"1.1rem\">" << "and networking programming." << "</tspan>\n"
-        << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Currently working on cybersecurity with secure communication systems and PAM solutions." << "</tspan>\n"
-        << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Background spans distributed systems, embedded software, and real-time applications." << "</tspan>\n"
-        << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Passionate about programming, linux and performance optimization." << "</tspan>\n"
+        << "  <tspan x=\"28\" dy=\"1.3rem\">" << "Currently working on cybersecurity with secure communication systems and PAM solutions." << "</tspan>\n"
+        << "  <tspan x=\"28\" dy=\"1.3rem\">" << "Background spans distributed systems, embedded software, and real-time applications." << "</tspan>\n"
+        << "  <tspan x=\"28\" dy=\"1.3rem\">" << "Passionate about programming, linux and performance optimization." << "</tspan>\n"
         << "</text>\n";
 
     y += 125;
