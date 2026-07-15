@@ -5,6 +5,7 @@
 #include "svg_renderer.hpp"
 
 // TODO: THIS CODE IS A MESS. FIX IT!
+// use variables, instead of magic numbers and magic words, fix width (reduce everything?)
 
 void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::string>& ascii_art, int followers, int repos, const std::string& filename, bool is_dark) {
     std::string bg_color     = is_dark ? "#0d1117" : "#ffffff";
@@ -21,13 +22,13 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
         << "font-family=\"ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace\">\n";
     
     svg << "<style>\n"
-        << "  .val { fill: " << text_color << "; font-size: 13px; }\n"
+        << "  .val { fill: " << text_color << "; font-size: 10px; }\n"
         << "  .key { fill: #3fb950; font-size: 12px; font-weight: 700; }\n"
-        << "  .acc { fill: " << accent_color << "; font-size: 13px; }\n"
-        << "  .wrn { fill: " << warn_color << "; font-size: 13px; }\n"
-        << "  .hdr { fill: " << accent_color << "; font-size: 15px; font-weight: 700; }\n"
-        << "  .sec { fill: " << muted_color << "; font-size: 12px; letter-spacing: 1px; }\n"
-        << "  .cur { fill: " << text_color << "; font-size: 14px; animation: blink 1s step-end infinite; }\n"
+        << "  .acc { fill: " << accent_color << "; font-size: 10px; }\n"
+        << "  .wrn { fill: " << warn_color << "; font-size: 10px; }\n"
+        << "  .hdr { fill: " << accent_color << "; font-size: 12px; font-weight: 700; }\n"
+        << "  .sec { fill: " << muted_color << "; font-size: 10px; letter-spacing: 1px; }\n"
+        << "  .cur { fill: " << text_color << "; font-size: 12px; animation: blink 1s step-end infinite; }\n"
         << "  @keyframes blink { 50% { opacity: 0; } }\n"
         << "</style>\n";
 
@@ -40,7 +41,7 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
     svg << "<circle cx=\"44\" cy=\"20\" r=\"6\" fill=\"#ffbd2e\"/>\n";
     svg << "<circle cx=\"64\" cy=\"20\" r=\"6\" fill=\"#27c93f\"/>\n";
     
-    svg << "<text x=\"390\" y=\"24\" class=\"sec\" text-anchor=\"middle\">P81000 — bash — 90x26</text>\n";
+    svg << "<text x=\"350\" y=\"24\" class=\"sec\" text-anchor=\"middle\">P81000 — bash — 90x26</text>\n";
 
     svg << "<text x=\"30\" y=\"66\">\n"
         << "  <tspan class=\"key\">~ $ </tspan>\n"
@@ -49,7 +50,7 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
 
     float art_x = 30.0;
     float art_y = 105.0;
-    float art_lh = 2;
+    float art_lh = 1.7;
 
     for (const std::string& line : ascii_art) {
         svg << "<text x=\"" << art_x << "\" y=\"" << art_y << "\" class=\"acc\" "
