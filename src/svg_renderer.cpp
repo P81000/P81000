@@ -17,7 +17,7 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
 
     std::ostringstream svg;
 
-    svg << "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"880\" height=\"670\" "
+    svg << "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"680\" height=\"670\" "
         << "font-family=\"ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace\">\n";
     
     svg << "<style>\n"
@@ -31,35 +31,35 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
         << "  @keyframes blink { 50% { opacity: 0; } }\n"
         << "</style>\n";
 
-    svg << "<rect x=\"1\" y=\"1\" width=\"878\" height=\"668\" rx=\"12\" fill=\"" << bg_color 
+    svg << "<rect x=\"1\" y=\"1\" width=\"678\" height=\"668\" rx=\"12\" fill=\"" << bg_color 
         << "\" stroke=\"" << border_color << "\" stroke-width=\"1.5\"/>\n";
-    svg << "<path d=\"M1 13 a12 12 0 0 1 12 -12 h850 a12 12 0 0 1 12 12 v25 h-978 z\" fill=\"" << panel_color << "\"/>\n";
-    svg << "<line x1=\"1\" y1=\"38\" x2=\"879\" y2=\"38\" stroke=\"" << border_color << "\"/>\n";
+    svg << "<path d=\"M1 13 a12 12 0 0 1 12 -12 h650 a12 12 0 0 1 12 12 v25 h-978 z\" fill=\"" << panel_color << "\"/>\n";
+    svg << "<line x1=\"1\" y1=\"38\" x2=\"679\" y2=\"38\" stroke=\"" << border_color << "\"/>\n";
     
     svg << "<circle cx=\"24\" cy=\"20\" r=\"6\" fill=\"#ff5f56\"/>\n";
     svg << "<circle cx=\"44\" cy=\"20\" r=\"6\" fill=\"#ffbd2e\"/>\n";
     svg << "<circle cx=\"64\" cy=\"20\" r=\"6\" fill=\"#27c93f\"/>\n";
     
-    svg << "<text x=\"490\" y=\"24\" class=\"sec\" text-anchor=\"middle\">P81000 — bash — 90x26</text>\n";
+    svg << "<text x=\"390\" y=\"24\" class=\"sec\" text-anchor=\"middle\">P81000 — bash — 90x26</text>\n";
 
     svg << "<text x=\"30\" y=\"66\">\n"
         << "  <tspan class=\"key\">~ $ </tspan>\n"
         << "  <tspan class=\"val\">neofetch --P81000</tspan>\n"
         << "</text>\n";
 
-    float art_x = 70.0;
-    float art_y = 75.0;
-    float art_lh = 2.7;    
+    float art_x = 30.0;
+    float art_y = 105.0;
+    float art_lh = 2;
 
     for (const std::string& line : ascii_art) {
         svg << "<text x=\"" << art_x << "\" y=\"" << art_y << "\" class=\"acc\" "
-            << "style=\"font-size: 2.7px; font-family: monospace; fill: #00ff0088;\" xml:space=\"preserve\">" 
+            << "style=\"font-size: 2px; font-family: monospace; fill: #00ff0088;\" xml:space=\"preserve\">" 
             << line << "</text>\n";
         art_y += art_lh;
     }
 
     float y = 92.0;
-    float info_x = 388.0;
+    float info_x = 235.0;
     float val_x = info_x + 95.0;
 
     for (const auto& row : profile) {
@@ -72,7 +72,7 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
             y += 17.0;
         } 
         else if (label == "__rule__") {
-            svg << "<line x1=\"" << info_x << "\" y1=\"" << (y - 8) << "\" x2=\"840\" y2=\"" << (y - 8) 
+            svg << "<line x1=\"" << info_x << "\" y1=\"" << (y - 8) << "\" x2=\"640\" y2=\"" << (y - 8) 
                 << "\" stroke=\"" << border_color << "\"/>\n";
             y += 8;
         }
@@ -94,7 +94,7 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
         }
     }
 
-    y += 55;
+    y += 45;
 
     svg << "<text x=\"30\" y=\"" << y << "\">\n"
         << "  <tspan class=\"key\">~ $ </tspan>\n"
@@ -103,13 +103,14 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
 
     y += 2;
     svg << "<text x=\"30\" y=\"" << y << "\" class=\"val\">\n"
-        << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Systems Software Engineer focused on high-performance C/C++ systems, Linux-based infrastructure, and networking programming." << "</tspan>\n"
+        << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Systems Software Engineer focused on high-performance C/C++ systems, Linux-based infrastructure," << "</tspan>\n"
+        << "  <tspan x=\"28\" dy=\"1.1rem\">" << "and networking programming." << "</tspan>\n"
         << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Currently working on cybersecurity with secure communication systems and PAM solutions." << "</tspan>\n"
         << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Background spans distributed systems, embedded software, and real-time applications." << "</tspan>\n"
         << "  <tspan x=\"28\" dy=\"1.1rem\">" << "Passionate about programming, linux and performance optimization." << "</tspan>\n"
         << "</text>\n";
 
-    y += 105;
+    y += 125;
     
     svg << "<text x=\"30\" y=\"" << y << "\">\n"
         << "  <tspan class=\"key\">~ $ </tspan>\n"

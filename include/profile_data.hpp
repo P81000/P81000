@@ -29,8 +29,8 @@ inline std::vector<InfoRow> profile_info = {
     // Projects
     InfoRow{"__section__", "~/projects", ""},
     InfoRow{"libssh2",  "Contributor to the C SSH2 library", "warn"},
-    InfoRow{"Vacuum-Robot", "Autonomous navigation and control system powered by ROS2 · WIP", "warn"},
-    InfoRow{"Redis Internals", "Custom Redis implementation with stream and timeout logic", "warn"},
+    InfoRow{"Vacuum-Robot", "Navigation and control system powered by ROS2", "warn"},
+    InfoRow{"Redis Internals", "Redis internals implementation in C++", "warn"},
     InfoRow{"__blank__", "", ""},
     
     // Contact Info
