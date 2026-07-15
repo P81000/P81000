@@ -18,6 +18,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add dark.svg
-          git commit -m "Update profile card" || exit 0
+          git add -f dark.svg
+          git commit -m "Update profile card" || true 
           git push
