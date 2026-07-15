@@ -2,7 +2,6 @@
   <h1>Pedro Henrique Masteguin</h1>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="light.svg">
-    <img alt="Profile" src="dark.svg">
+    <img alt="Profile" src="dark.svg" width="100%"> 
   </picture>
 </div>
