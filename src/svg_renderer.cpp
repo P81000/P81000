@@ -61,7 +61,7 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
 
     float y = 92.0;
     float info_x = 235.0;
-    float val_x = info_x + 95.0;
+    float val_x = info_x + 115.0;
 
     for (const auto& row : profile) {
         std::string label = std::get<0>(row);

@@ -23,7 +23,7 @@ inline std::vector<InfoRow> profile_info = {
     InfoRow{"Systems",   "Embedded Linux · Yocto · ROS2", "val"},
     InfoRow{"Infra",     "AWS · Docker", "val"},
     InfoRow{"Tools",     "CMake · Git · Neovim · perf · gdb", "val"},
-    InfoRow{"Platforms", "Mission Planner · QGroundControl · PX4 ArduPilot · XPlane", "val"},
+    InfoRow{"Platforms", "Mission Planner · PX4 ArduPilot · XPlane", "val"},
     InfoRow{"__blank__", "", ""},
     
     // Projects

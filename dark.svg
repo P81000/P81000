@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="670" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace">
 <style>
   .val { fill: #c9d1d9; font-size: 10px; }
-  .key { fill: #3fb950; font-size: 12px; font-weight: 700; }
+  .key { fill: #3fb950; font-size: 10px; font-weight: 700; }
   .acc { fill: #58a6ff; font-size: 10px; }
   .wrn { fill: #d29922; font-size: 10px; }
-  .hdr { fill: #58a6ff; font-size: 12px; font-weight: 700; }
+  .hdr { fill: #58a6ff; font-size: 10px; font-weight: 700; }
   .sec { fill: #8b949e; font-size: 10px; letter-spacing: 1px; }
-  .cur { fill: #c9d1d9; font-size: 12px; animation: blink 1s step-end infinite; }
+  .cur { fill: #c9d1d9; font-size: 10px; animation: blink 1s step-end infinite; }
   @keyframes blink { 50% { opacity: 0; } }
 </style>
 <rect x="1" y="1" width="678" height="668" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
@@ -158,36 +158,36 @@
 <text x="235" y="92" class="hdr">Pedro Masteguin</text>
 <line x1="235" y1="101" x2="640" y2="101" stroke="#30363d"/>
 <text x="235" y="117" class="key">Role</text>
-<text x="330" y="117" class="val">Systems Software Engineer @ Segura</text>
+<text x="350" y="117" class="val">Systems Software Engineer @ Segura</text>
 <text x="235" y="134" class="key">Edu</text>
-<text x="330" y="134" class="val">Bachelor's Degree · UNIFESP</text>
+<text x="350" y="134" class="val">Bachelor's Degree · UNIFESP</text>
 <text x="235" y="151" class="key">Focus</text>
-<text x="330" y="151" class="acc">Modern C++ · Real-Time Systems · Middleware</text>
+<text x="350" y="151" class="acc">Modern C++ · Real-Time Systems · Middleware</text>
 <text x="235" y="178" class="sec">~/stack</text>
 <text x="235" y="195" class="key">Core</text>
-<text x="330" y="195" class="val">C++17/20 · C · Bash · Lua · Python</text>
+<text x="350" y="195" class="val">C++17/20 · C · Bash · Lua · Python</text>
 <text x="235" y="212" class="key">Systems</text>
-<text x="330" y="212" class="val">Embedded Linux · Yocto · ROS2</text>
+<text x="350" y="212" class="val">Embedded Linux · Yocto · ROS2</text>
 <text x="235" y="229" class="key">Infra</text>
-<text x="330" y="229" class="val">AWS · Docker</text>
+<text x="350" y="229" class="val">AWS · Docker</text>
 <text x="235" y="246" class="key">Tools</text>
-<text x="330" y="246" class="val">CMake · Git · Neovim · perf · gdb</text>
+<text x="350" y="246" class="val">CMake · Git · Neovim · perf · gdb</text>
 <text x="235" y="263" class="key">Platforms</text>
-<text x="330" y="263" class="val">Mission Planner · QGroundControl · PX4 ArduPilot · XPlane</text>
+<text x="350" y="263" class="val">Mission Planner · PX4 ArduPilot · XPlane</text>
 <text x="235" y="290" class="sec">~/projects</text>
 <text x="235" y="307" class="key">libssh2</text>
-<text x="330" y="307" class="wrn">Contributor to the C SSH2 library</text>
+<text x="350" y="307" class="val">Contributor to the C SSH2 library</text>
 <text x="235" y="324" class="key">Vacuum-Robot</text>
-<text x="330" y="324" class="wrn">Navigation and control system powered by ROS2</text>
+<text x="350" y="324" class="val">Navigation and control system powered by ROS2</text>
 <text x="235" y="341" class="key">Redis Internals</text>
-<text x="330" y="341" class="wrn">Redis internals implementation in C++</text>
+<text x="350" y="341" class="val">Redis internals implementation in C++</text>
 <text x="235" y="368" class="sec">~/reach</text>
 <text x="235" y="385" class="key">In</text>
-<text x="330" y="385" class="acc">linkedin.com/in/pedro-masteguin</text>
+<text x="350" y="385" class="acc">linkedin.com/in/pedro-masteguin</text>
 <text x="235" y="402" class="key">Mail</text>
-<text x="330" y="402" class="acc">pmasteguin@icloud.com</text>
+<text x="350" y="402" class="acc">pmasteguin@icloud.com</text>
 <text x="235" y="419" class="key">Phone</text>
-<text x="330" y="419" class="acc">+55 (19) 99938-8063</text>
+<text x="350" y="419" class="acc">+55 (19) 99938-8063</text>
 <text x="30" y="481">
   <tspan class="key">~ $ </tspan>
   <tspan class="val">whoami</tspan>
