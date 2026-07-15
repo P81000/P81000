@@ -23,12 +23,12 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
     
     svg << "<style>\n"
         << "  .val { fill: " << text_color << "; font-size: 10px; }\n"
-        << "  .key { fill: #3fb950; font-size: 12px; font-weight: 700; }\n"
+        << "  .key { fill: #3fb950; font-size: 10px; font-weight: 700; }\n"
         << "  .acc { fill: " << accent_color << "; font-size: 10px; }\n"
         << "  .wrn { fill: " << warn_color << "; font-size: 10px; }\n"
-        << "  .hdr { fill: " << accent_color << "; font-size: 12px; font-weight: 700; }\n"
+        << "  .hdr { fill: " << accent_color << "; font-size: 10px; font-weight: 700; }\n"
         << "  .sec { fill: " << muted_color << "; font-size: 10px; letter-spacing: 1px; }\n"
-        << "  .cur { fill: " << text_color << "; font-size: 12px; animation: blink 1s step-end infinite; }\n"
+        << "  .cur { fill: " << text_color << "; font-size: 10px; animation: blink 1s step-end infinite; }\n"
         << "  @keyframes blink { 50% { opacity: 0; } }\n"
         << "</style>\n";
 
