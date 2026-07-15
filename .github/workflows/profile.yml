@@ -1,0 +1,23 @@
+name: Generate Profile Card
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Compile and Generate
+        run: |
+          mkdir build && cd build
+          cmake .. && make
+          ./generate_profile
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add dark.svg light.svg
+          git commit -m "Update profile card" || exit 0
+          git push
