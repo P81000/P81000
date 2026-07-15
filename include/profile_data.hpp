@@ -12,7 +12,7 @@ inline std::vector<InfoRow> profile_info = {
     InfoRow{"__rule__", "", ""},
     
     // Core Identity
-    InfoRow{"Role",     "Systems Software Engineer @ Segura", "val"},
+    InfoRow{"Role",     "Software Engineer @ Segura", "val"},
     InfoRow{"Edu",      "Bachelor's Degree · UNIFESP", "val"},
     InfoRow{"Focus",    "Modern C++ · Real-Time Systems · Middleware", "accent"},
     InfoRow{"__blank__", "", ""},
