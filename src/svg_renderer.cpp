@@ -57,16 +57,12 @@ void generate_svg(const std::vector<InfoRow>& profile, const std::vector<std::st
     float art_y = 105.0;
     float art_lh = 1.7;
 
-    svg << "<g class=\"tux-anim\">\n";
-
     for (const std::string& line : ascii_art) {
         svg << "<text x=\"" << art_x << "\" y=\"" << art_y << "\" class=\"acc\" "
             << "style=\"font-size: 2px; font-family: monospace; fill: #00ff0088;\" xml:space=\"preserve\">" 
             << line << "</text>\n";
         art_y += art_lh;
     }
-
-    svg << "</g>\n";
 
     float y = 92.0;
     float info_x = 235.0;
