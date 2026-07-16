@@ -25,7 +25,6 @@
   <tspan class="key">~ $ </tspan>
   <tspan class="val">neofetch --P81000</tspan>
 </text>
-<g class="tux-anim">
 <text x="30" y="105" class="acc" style="font-size: 2px; font-family: monospace; fill: #00ff0088;" xml:space="preserve">                                                                          +++                                                                         </text>
 <text x="30" y="106.7" class="acc" style="font-size: 2px; font-family: monospace; fill: #00ff0088;" xml:space="preserve">                                                                     +++++++++++++                                                                    </text>
 <text x="30" y="108.4" class="acc" style="font-size: 2px; font-family: monospace; fill: #00ff0088;" xml:space="preserve">                                                                   +++++++++++++++++                                                                  </text>
@@ -161,7 +160,6 @@
 <text x="30" y="329.4" class="acc" style="font-size: 2px; font-family: monospace; fill: #00ff0088;" xml:space="preserve">                                                                 .....................                                                                </text>
 <text x="30" y="331.1" class="acc" style="font-size: 2px; font-family: monospace; fill: #00ff0088;" xml:space="preserve">                                                                   .................                                                                  </text>
 <text x="30" y="332.8" class="acc" style="font-size: 2px; font-family: monospace; fill: #00ff0088;" xml:space="preserve">                                                                      ...........                                                                     </text>
-</g>
 <text x="235" y="92" class="hdr">Pedro Masteguin</text>
 <line x1="235" y1="101" x2="640" y2="101" stroke="#30363d"/>
 <text x="235" y="117" class="key">Role</text>
