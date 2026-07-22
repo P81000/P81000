@@ -40,4 +40,5 @@ inline std::vector<InfoRow> profile_info = {
     InfoRow{"Phone",     "+55 (19) 99938-8063", "accent"}
 };
 
-inline std::string footer_prompt = "open to --System Engineer --Software Engineer --Embedded Systems roles";
+// inline std::string footer_prompt = "open to --System Engineer --Software Engineer --Embedded Systems roles";
+inline std::string footer_prompt = " ";
